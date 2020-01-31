@@ -126,7 +126,7 @@ Configure your Repo for Docstrings
 There are two ways to configure your repo for docstrings.
 If you are already using the python repo template from lsst/template repo, then the doc folder is already setup for you.
 You can build documentation according to the rst standards.
-However, if you have manually setup a repo, then you will need to prepare it up manually.
+However, if you have to manually setup a repo, then you will need to prepare it yourself.
 
 Inside of your code repo, create a folder called `doc`.
 Inside of the new folder create a series of files `index.rst` `conf.py` `requirements.txt` `.gitignore`.
