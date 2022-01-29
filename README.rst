@@ -1,7 +1,7 @@
 .. image:: https://img.shields.io/badge/tstn--005-lsst.io-brightgreen.svg
    :target: https://tstn-005.lsst.io
-.. image:: https://travis-ci.com/lsst-tstn/tstn-005.svg
-   :target: https://travis-ci.com/lsst-tstn/tstn-005
+.. image:: https://github.com/lsst-tstn/tstn-005/workflows/CI/badge.svg
+   :target: https://github.com/lsst-tstn/tstn-005/actions/
 ..
   Uncomment this section and modify the DOI strings to include a Zenodo DOI badge in the README
   .. image:: https://zenodo.org/badge/doi/10.5281/zenodo.#####.svg
@@ -14,14 +14,14 @@ TSSW Documentation Guide
 TSTN-005
 ========
 
-This document guides a member of the TSSW Team to the correct location for their documentation. 
+This document guides a member of the TSSW Team to the correct location for their documentation.
 
 **Links:**
 
 - Publication URL: https://tstn-005.lsst.io
 - Alternative editions: https://tstn-005.lsst.io/v
 - GitHub repository: https://github.com/lsst-tstn/tstn-005
-- Build system: https://travis-ci.com/lsst-tstn/tstn-005
+- Build system: https://github.com/lsst-tstn/tstn-005/actions/
 
 
 Build this technical note
@@ -52,7 +52,7 @@ The `DM reStructuredText Style Guide`_ is a good resource for how we write reStr
 Remember that images and other types of assets should be stored in the ``_static/`` directory of this repository.
 See ``_static/README.rst`` for more information.
 
-The published technote at https://tstn-005.lsst.io will be automatically rebuilt whenever you push your changes to the ``master`` branch on `GitHub <https://github.com/lsst-tstn/tstn-005>`_.
+The published technote at https://tstn-005.lsst.io will be automatically rebuilt whenever you push your changes to the ``main`` branch on `GitHub <https://github.com/lsst-tstn/tstn-005>`_.
 
 Updating metadata
 =================
